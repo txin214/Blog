@@ -11,9 +11,9 @@
     <body>
         <header id="main-navigation">
             <h1><a href="{% url "starting-page" %}">Tianshu' Blog</a></h1>
-            {% comment %} <nav>
-                <a href="{% url "all-posts" %}">All Posts</a>
-            </nav> {% endcomment %}
+             <nav>
+                <a href="{% url "posts-page" %}">All Posts</a>  
+            </nav> 
           </header>
         {%block content%}
         {%endblock%}
